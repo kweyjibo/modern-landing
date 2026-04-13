@@ -1,0 +1,8 @@
+@media (width >= 1280px) {
+  .site {
+    --shift: 32px;
+
+    padding-left: var(--shift);
+    padding-right: var(--shift);
+  }
+}

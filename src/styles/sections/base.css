@@ -1,0 +1,15 @@
+/* Contact Us */
+
+.contactus {
+  margin-top: 38px;
+
+  border-top: var(--divider);
+  text-align: center;
+}
+
+.contactus-text {
+  display: inline-block;
+  max-width: 450px;
+}
+
+/* /Contact Us */

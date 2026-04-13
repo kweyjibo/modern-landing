@@ -1,0 +1,14 @@
+@media (width < 800px) {
+  /* Contact Us */
+  .contactus {
+    --shift: 60px;
+    padding-top: var(--shift);
+    padding-bottom: var(--shift);
+  }
+
+  .contactus-text {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  /* /Contact Us */
+}

@@ -1,0 +1,8 @@
+@media (min-width: 799px) and (max-width: 1279px) {
+  .site {
+    --shift: 24px;
+
+    padding-left: var(--shift);
+    padding-right: var(--shift);
+  }
+}
