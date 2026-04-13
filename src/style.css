@@ -1,0 +1,21 @@
+@import "styles/vars.css";
+@import "styles/main.css";
+
+@import "styles/site/index.css";
+@import "styles/headings/index.css";
+
+/* COMPONENTS */
+@import "styles/button-more/index.css";
+@import "styles/burger-menu/index.css";
+
+/* HEADER */
+@import "styles/header/index.css";
+@import "styles/nav/index.css";
+@import "styles/logo/index.css";
+
+/* SECTIONS */
+@import "styles/promo/index.css";
+@import "styles/sections/index.css";
+
+/* FOOTER */
+@import "styles/footer/index.css";
