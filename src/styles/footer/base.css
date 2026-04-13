@@ -1,0 +1,19 @@
+.footer {
+  color: var(--footer-text);
+  border-top: var(--divider);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-right: 38px;
+}

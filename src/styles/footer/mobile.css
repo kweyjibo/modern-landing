@@ -1,0 +1,10 @@
+@media (width < 800px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .footer-bottom {
+    padding-top: 64px;
+  }
+}
