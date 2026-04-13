@@ -1,0 +1,18 @@
+.burger-menu {
+  display: none;
+  flex: 1;
+}
+
+.burger-menu__button {
+  position: relative;
+  z-index: 2;
+
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+.burger-menu__ic-open {
+  width: 24px;
+  height: 24px;
+}

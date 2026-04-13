@@ -1,0 +1,15 @@
+@media (width < 800px) {
+  .burger-menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .burger-menu__ic-close,
+  .menu-open .burger-menu__ic-open {
+    display: none;
+  }
+
+  .menu-open .burger-menu__ic-close {
+    display: block;
+  }
+}

@@ -1,0 +1,6 @@
+@media (width >= 1280px) {
+  .header {
+    padding-top: 20px;
+    height: 148px;
+  }
+}

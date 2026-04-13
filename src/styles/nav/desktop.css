@@ -1,0 +1,22 @@
+@media (width >= 1280px) {
+  .nav__cnt {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+  }
+
+  .nav {
+    flex: 1;
+    display: flex;
+
+    &.__header {
+      justify-content: center;
+    }
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 26px;
+  }
+}

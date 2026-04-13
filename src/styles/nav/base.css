@@ -1,0 +1,15 @@
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__lk {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+
+  &:hover {
+    color: #485c11;
+  }
+}
