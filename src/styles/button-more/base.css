@@ -1,0 +1,11 @@
+.button-more {
+  padding: 12px 20px;
+  font-size: 14px;
+
+  background-color: var(--button-more-bg);
+  color: var(--button-more-color);
+
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
+}

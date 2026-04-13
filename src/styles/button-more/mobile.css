@@ -1,0 +1,7 @@
+@media (width < 800px) {
+  .button-more {
+    &.__wide {
+      width: 100%;
+    }
+  }
+}
