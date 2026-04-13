@@ -1,0 +1,29 @@
+.promo__title {
+  text-align: center;
+  color: var(--text-h);
+}
+
+.promo-cnt {
+  position: relative;
+}
+
+.promo__bg {
+  height: 362px;
+
+  background-color: #8e9c78;
+  border-radius: var(--border-radius);
+}
+
+.promo-pic {
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.promo-pic__src {
+  display: block;
+}

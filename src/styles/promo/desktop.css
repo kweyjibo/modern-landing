@@ -1,0 +1,14 @@
+@media (width >= 1280px) {
+  .promo__title {
+    font-size: 162px;
+    line-height: 0.8;
+  }
+
+  .promo-cnt {
+    padding-top: 200px;
+  }
+
+  .promo-pic__src {
+    width: 870px;
+  }
+}
