@@ -1,0 +1,13 @@
+@media (width >= 1280px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
