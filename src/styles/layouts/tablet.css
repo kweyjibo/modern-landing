@@ -1,0 +1,10 @@
+@media (min-width: 799px) and (max-width: 1279px) {
+  .two-colums {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .two-colums__wide {
+    flex: 1;
+  }
+}
