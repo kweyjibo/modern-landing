@@ -1,4 +1,26 @@
 @media (width >= 1280px) {
+  /* How-to */
+
+  .how-to {
+    --shift: 120px;
+    padding-top: var(--shift);
+    padding-bottom: var(--shift);
+  }
+
+  .how-to-blocks__cnt {
+    padding-top: 80px;
+  }
+
+  .how-to-block__num {
+    --shift-num: 60px;
+    padding-top: var(--shift-num);
+    padding-bottom: var(--shift-num);
+
+    font-size: 80px;
+  }
+
+  /* /How-to */
+
   /* Contact Us */
 
   .contactus {

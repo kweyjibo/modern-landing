@@ -1,3 +1,33 @@
+/* How-to */
+.how-to {
+  --how-to-color: #929292;
+  --how-to-text: #484848;
+
+  margin-top: 38px;
+  border-top: var(--divider);
+}
+
+.how-to-blocks__cnt {
+  display: flex;
+  gap: 20px;
+}
+
+.how-to-block {
+  flex: 1;
+  border-top: var(--divider);
+}
+
+.how-to-block__num {
+  color: var(--how-to-color);
+}
+
+.how-to-block__txt {
+  padding-top: 20px;
+  color: var(--how-to-text);
+}
+
+/* /How-to */
+
 /* Contact Us */
 
 .contactus {

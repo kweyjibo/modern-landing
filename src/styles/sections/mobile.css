@@ -1,4 +1,30 @@
 @media (width < 800px) {
+  /* How-to */
+
+  .how-to {
+    --shift: 60px;
+    padding-top: var(--shift);
+    padding-bottom: var(--shift);
+  }
+
+  .how-to-discover {
+    padding-top: 38px;
+  }
+
+  .how-to-blocks__cnt {
+    padding-top: 60px;
+  }
+
+  .how-to-block__num {
+    --shift-num: 32px;
+    padding-top: var(--shift-num);
+    padding-bottom: var(--shift-num);
+
+    font-size: 60px;
+  }
+
+  /* /How-to */
+
   /* Contact Us */
   .contactus {
     --shift: 60px;
