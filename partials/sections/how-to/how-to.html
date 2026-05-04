@@ -1,0 +1,27 @@
+<section class="how-to">
+  {{> components/anchor-target text="How to" target="howto"}}
+  <div class="two-colums">
+    <div class="two-colums__wide">
+      <h1 class="contactus-title">Map Your Success</h1>
+    </div>
+    <div class="how-to-discover">
+      {{> components/button text="Discover More"}}
+    </div>
+  </div>
+
+  {{> sections/how-to/list}}
+
+  <div class="how-to-pic">
+    <div class="how-to-pic__img">
+      <img
+        src="./public/img/how-to/desktop.webp"
+        srcset="
+          ./public/img/how-to/desktop.webp    1x,
+          ./public/img/how-to/desktop-2x.webp 2x
+        "
+        class=""
+        alt="How to map"
+      />
+    </div>
+  </div>
+</section>
