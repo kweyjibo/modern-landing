@@ -1,0 +1,19 @@
+.logo {
+  --height: 60px;
+
+  position: relative;
+  z-index: 3;
+
+  width: 110px;
+  height: var(--height);
+
+  display: inline-block;
+  background-color: #dfecc6;
+
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  line-height: var(--height);
+
+  border-radius: 50%;
+}
