@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "CrimsonText";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public/fonts/CrimsonText-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DMSans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public/fonts/DMSans.woff2") format("woff2");
+}
+
+:root {
+  --font-family-text-crimsontext: "CrimsonText", sans-serif;
+  --font-family-text-dmsans: "DMSans", sans-serif;
+}

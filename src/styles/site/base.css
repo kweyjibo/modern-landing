@@ -1,1 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: var(--font-family-text-dmsans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-text-crimsontext);
+  font-weight: normal;
+}
