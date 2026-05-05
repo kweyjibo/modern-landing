@@ -1,0 +1,18 @@
+@media (width < 800px) {
+  .benefits {
+    --shift-benefits: 46px;
+  }
+
+  .benefits-dsc {
+    --shift-benefits-dsc: 20px;
+  }
+
+  .benefits__cnt {
+    gap: 38px;
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-block_item {
+    --shift-benefits-item: 32px;
+  }
+}
