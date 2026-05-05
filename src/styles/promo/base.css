@@ -1,4 +1,5 @@
 .promo__title {
+  font-family: var(--font-family-text-crimsontext);
   text-align: center;
   color: var(--text-h);
 }

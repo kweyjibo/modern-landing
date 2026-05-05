@@ -1,3 +1,27 @@
+/* Trust-by */
+
+.trustedby {
+  padding-top: var(--block-shift);
+  padding-bottom: var(--block-shift);
+}
+
+.trustedby__title {
+  padding-bottom: 28px;
+  font-weight: normal;
+}
+
+.trustedby-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  justify-content: center;
+
+  margin: 0;
+  list-style: none;
+}
+
+/* /Trust-by */
+
 /* How-to */
 .how-to {
   --how-to-color: #929292;
@@ -24,6 +48,16 @@
 .how-to-block__txt {
   padding-top: 20px;
   color: var(--how-to-text);
+}
+
+.how-to-pic {
+  text-align: center;
+}
+
+.how-to-pic__img {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: var(--border-radius);
 }
 
 /* /How-to */

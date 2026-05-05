@@ -1,10 +1,17 @@
 @media (width < 800px) {
+  /* Trusted-by */
+
+  .trustedby {
+    --block-shift: 32px;
+  }
+
+  /* /Trusted-by */
+
   /* How-to */
 
   .how-to {
     --shift: 60px;
     padding-top: var(--shift);
-    padding-bottom: var(--shift);
   }
 
   .how-to-discover {
@@ -21,6 +28,10 @@
     padding-bottom: var(--shift-num);
 
     font-size: 60px;
+  }
+
+  .how-to-pic {
+    margin-top: var(--shift);
   }
 
   /* /How-to */

@@ -2,6 +2,10 @@
   .two-colums {
     display: flex;
     flex-direction: row;
+
+    &.__center {
+      align-items: center;
+    }
   }
 
   .two-colums__wide {
