@@ -15,4 +15,22 @@
   .benefits-block_item {
     --shift-benefits-item: 32px;
   }
+
+  .bigpicture-btn {
+    margin-top: 18px;
+  }
+
+  /* Big picture */
+
+  .bigpicture {
+    --shift-bigpicture: 80px;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .bigpicture-left-column {
+    --shift-bigpicture: 32px;
+  }
+
+  /* /Big picture */
 }

@@ -41,3 +41,43 @@
   overflow: hidden;
   border-radius: var(--border-radius);
 }
+
+/* Big picture */
+
+.bigpicture {
+  display: flex;
+  margin-top: var(--shift-bigpicture);
+  width: 100%;
+}
+
+.bigpicture-left-column {
+  padding-top: var(--shift-bigpicture);
+
+  border-top: var(--divider);
+}
+
+.bigpicture-list {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+.bigpicture-list__item {
+  counter-increment: item;
+
+  position: relative;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  border-top: var(--divider);
+  color: #000;
+
+  &:before {
+    content: counter(item, decimal-leading-zero) " ";
+    position: absolute;
+    left: 0;
+    margin-right: 8px;
+    color: var(--text);
+  }
+}
