@@ -1,2 +1,13 @@
 @media (min-width: 799px) and (max-width: 1279px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
 }
