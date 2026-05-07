@@ -50,6 +50,12 @@
   width: 100%;
 }
 
+.bigpicture-txt {
+  --bigpicture-txt-shift: 16px;
+  padding-top: var(--bigpicture-txt-shift);
+  padding-bottom: var(--bigpicture-txt-shift);
+}
+
 .bigpicture-left-column {
   padding-top: var(--shift-bigpicture);
 
