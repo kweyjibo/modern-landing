@@ -1,0 +1,14 @@
+@media (width < 800px) {
+  /* Block quote */
+
+  .quote {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .quote-text {
+    font-size: 24px;
+  }
+
+  /* /Block quote */
+}

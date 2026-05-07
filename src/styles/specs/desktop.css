@@ -1,0 +1,23 @@
+@media (width >= 1280px) {
+  /* Header */
+
+  .specs-text {
+    display: inline-block;
+    max-width: 560px;
+  }
+
+  /*/Header */
+
+  /* Block quote */
+
+  .quote {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px;
+  }
+
+  .quote-text {
+    font-size: 38px;
+  }
+
+  /* /Block quote */
+}

@@ -1,0 +1,41 @@
+/* Header */
+
+.specs-header {
+  text-align: center;
+}
+
+.specs-text {
+  --specs-text-shift: 30px;
+  padding-top: var(--specs-text-shift);
+  padding-bottom: var(--specs-text-shift);
+}
+
+/* /Header */
+
+/* Block quote */
+
+.quote {
+  display: grid;
+}
+
+.quote-inner {
+  border-top: var(--divider);
+}
+
+.quote-text {
+  padding-bottom: 50px;
+  font-family: var(--font-family-text-crimsontext);
+  line-height: 1.1;
+  color: #000000;
+}
+
+.quote-author {
+  color: #000000;
+}
+
+.quote-who {
+  font-size: 12px;
+  color: var(--quote-text);
+}
+
+/* /Block quote */
