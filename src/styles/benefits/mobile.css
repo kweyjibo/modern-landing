@@ -32,5 +32,10 @@
     --shift-bigpicture: 32px;
   }
 
+  .bicpicture-pic {
+    display: flex;
+    justify-content: center;
+  }
+
   /* /Big picture */
 }

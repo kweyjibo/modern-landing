@@ -1,27 +1,37 @@
 <div class="bicpicture-pic">
   <picture>
     <source
-      media="(max-width: 799px)"
+      media="(width < 800px)"
       srcset="
-        ./public/img/benefits/mobile/big-pic.webp    294w,
-        ./public/img/benefits/mobile/big-pic-2x.webp 587w
+        /img/benefits/mobile/big-pic.webp    311w,
+        /img/benefits/mobile/big-pic@2x.webp 622w
       "
+      sizes="311px"
     />
+
     <source
-      media="(max-width: 1279px)"
+      media="(width >= 800px) and (width < 1280px)"
       srcset="
-        ./public/img/benefits/tablet/big-pic.webp     706w,
-        ./public/img/benefits/tablet/big-pic-2x.webp 1413w
+        /img/benefits/tablet/big-pic.webp     720w,
+        /img/benefits/tablet/big-pic@2x.webp 1440w
       "
+      sizes="720px"
     />
-    <img
-      src="./public/img/promo/ipad.webp"
+
+    <source
+      media="(width >= 1280px)"
       srcset="
-        ./public/img/benefits/big-pic.webp    1x,
-        ./public/img/benefits/big-pic-2x.webp 2x
+        /img/benefits/big-pic.webp     590w,
+        /img/benefits/big-pic@2x.webp 1180w
       "
-      class="bicpicture-pic__src"
-      alt="Big picture"
+      sizes="590px"
+    />
+
+    <img
+      src="/img/benefits/big-pic.webp"
+      alt="See the Big Picture"
+      loading="lazy"
+      class="bigpicture-pic__src"
     />
   </picture>
 </div>

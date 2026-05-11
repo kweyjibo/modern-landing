@@ -32,5 +32,10 @@
     margin-top: 24px;
   }
 
+  .bicpicture-pic {
+    display: flex;
+    justify-content: center;
+  }
+
   /* /Big picture */
 }
