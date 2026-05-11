@@ -1,4 +1,16 @@
 @media (width < 800px) {
+  .specs {
+    padding-top: 60px;
+  }
+
+  /* Header */
+
+  .specs-header {
+    padding-bottom: 60px;
+  }
+
+  /* /Header */
+
   /* Block quote */
 
   .quote {
@@ -6,8 +18,17 @@
     gap: 38px;
   }
 
+  .quote-inner {
+    padding-top: 32px;
+  }
+
   .quote-text {
     font-size: 24px;
+  }
+
+  .quote-pic {
+    display: flex;
+    justify-content: center;
   }
 
   /* /Block quote */

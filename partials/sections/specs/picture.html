@@ -1,0 +1,40 @@
+<div class="quote-pic">
+  <picture>
+    <!-- mobile -->
+    <source
+      media="(width < 800px)"
+      srcset="
+        /img/specs/mobile/quote-pic.webp    343w,
+        /img/specs/mobile/quote-pic@2x.webp 686w
+      "
+      sizes="343px"
+    />
+
+    <!-- tablet -->
+    <source
+      media="(width >= 800px) and (width < 1280px)"
+      srcset="
+        /img/specs/tablet/quote-pic.webp     720w,
+        /img/specs/tablet/quote-pic@2x.webp 1440w
+      "
+      sizes="720px"
+    />
+
+    <!-- desktop -->
+    <source
+      media="(width >= 1280px)"
+      srcset="
+        /img/specs/quote-pic.webp     590w,
+        /img/specs/quote-pic@2x.webp 1180w
+      "
+      sizes="590px"
+    />
+
+    <img
+      src="/img/specs/quote-pic.webp"
+      alt="Quote"
+      loading="lazy"
+      class="quote-pic__src"
+    />
+  </picture>
+</div>

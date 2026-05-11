@@ -1,3 +1,7 @@
+.specs {
+  border-top: var(--divider);
+}
+
 /* Header */
 
 .specs-header {

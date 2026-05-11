@@ -1,5 +1,13 @@
 @media (width >= 1280px) {
+  .specs {
+    padding-top: 80px;
+  }
+
   /* Header */
+
+  .specs-header {
+    padding-bottom: 80px;
+  }
 
   .specs-text {
     display: inline-block;
@@ -13,6 +21,12 @@
   .quote {
     grid-template-columns: repeat(2, 1fr);
     gap: 44px;
+  }
+
+  .quote-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .quote-text {
