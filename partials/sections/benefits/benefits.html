@@ -5,21 +5,10 @@
     Area provides real insights, without the data overload.
   </div>
 
+  <!-- prettier-ignore -->
+
   {{> sections/benefits/list}}
-
-  <div class="benefits-pic">
-    <div class="benefits__img">
-      <img
-        src="./public/img/benefits/benefits.webp"
-        srcset="
-          ./public/img/benefits/benefits.webp    1x,
-          ./public/img/benefits/benefits@2x.webp 2x
-        "
-        class=""
-        alt="How to map"
-      />
-    </div>
-  </div>
-
+  {{> sections/benefits/section-image}}
   {{> sections/benefits/big-picture/section}}
+  <!-- /prettier-ignore -->
 </section>

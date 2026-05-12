@@ -1,0 +1,32 @@
+<div class="benefits__img">
+  <picture>
+    <source
+      media="(width < 800px)"
+      srcset="
+        /img/benefits/mobile/benefits.webp    343w,
+        /img/benefits/mobile/benefits@2x.webp 686w
+      "
+      sizes="343px"
+    />
+
+    <source
+      media="(width >= 800px) and (width < 1280px)"
+      srcset="
+        /img/benefits/tablet/benefits.webp     720w,
+        /img/benefits/tablet/benefits@2x.webp 1440w
+      "
+      sizes="720px"
+    />
+
+    <source
+      media="(width >= 1280px)"
+      srcset="
+        /img/benefits/benefits.webp     590w,
+        /img/benefits/benefits@2x.webp 1180w
+      "
+      sizes="590px"
+    />
+
+    <img src="/img/benefits/benefits.webp" alt="How to map" loading="lazy" />
+  </picture>
+</div>
