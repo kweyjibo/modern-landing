@@ -4,5 +4,7 @@
 
     padding-left: var(--shift);
     padding-right: var(--shift);
+    margin: 0 auto;
+    max-width: 1200px;
   }
 }

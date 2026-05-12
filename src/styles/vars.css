@@ -35,4 +35,7 @@
 
   /* Anchor link */
   --anchor-link-color: #485c11;
+
+  /* Quote */
+  --quote-text: #485c11;
 }

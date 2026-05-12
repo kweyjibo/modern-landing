@@ -12,6 +12,7 @@
   .how-to {
     --shift: 60px;
     padding-top: var(--shift);
+    margin-top: var(--shift);
   }
 
   .how-to-discover {
