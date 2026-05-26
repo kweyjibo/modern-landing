@@ -2,12 +2,21 @@
 
 A simple landing page built for practicing front-end development.
 
-Tech stack:
+**Tech stack:**
+
+`
 Built with Vite
+`
 
- Getting started:
- npm install
+ **Getting started:**
+ 
+ ```
+npm install
  npm run dev
+```
 
- Build:
- npm run build
+ **Build:**
+ 
+ ```
+npm run build
+ ```
